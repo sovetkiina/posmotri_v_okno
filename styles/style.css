@@ -44,10 +44,11 @@ ol {
 .content {
   display: flex;
   justify-content: center;
+  width: 1140px;
   height: 800px;
   gap: 30px;
-  padding-bottom: 20px;
 }
+
 .result__video-container {
   min-width: 711px;
 }
@@ -60,7 +61,7 @@ ol {
 
 .search-form {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: end;
   gap: 40px;
   width: 100%;
@@ -82,9 +83,11 @@ ol {
 }
 
 .content__list {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
   max-height: 300px;
-  overflow-y: auto;
-  padding-right: 10px;
+  overflow: auto;
 }
 
 .content__list-item:not(:last-child) {
@@ -105,15 +108,16 @@ ol {
   display: flex;
   flex-direction: column;
   width: 399px;
+  gap: 18px;
 }
 
 .title {
-  margin-bottom: 20px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald',sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
   text-align: left;
+  text-transform:uppercase
 }
 
 .content__card-link {
