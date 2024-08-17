@@ -12,10 +12,14 @@ html {
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+
 }
 
 h1,
@@ -35,4 +39,109 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+.result__video-container {
+  min-width: 711px;
+}
+
+.result__video {
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  gap: 40px;
+  width: 100%;
+}
+
+.search-form__submit-button {
+  display: flex;
+  padding: 7px 70px 5px;
+  height: 100%; /* Полная высота контейнера */
+  font-size: 18px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: center;
+  background-color: #1b1919;
+  color: #FFF; 
+  border: 1px solid #FFF;
+  cursor: pointer;
+}
+
+.content__list {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.content__list-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.content__video-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+}
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  width: 399px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 70.5px;
+  text-align: left;
+}
+
+.content__card-link {
+  text-decoration: none;
+  color: white;
+}
+
+.content__video-card-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+.content__video-card-description {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16.2px;
+  text-align: left;
+
+}
+
+.search-form__fieldset-title {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
 }
