@@ -114,6 +114,7 @@ ol {
   height: 19px;
   border: 1px 0px 0px 0px;
 }
+
 input[type="checkbox"]:disabled {
 width: 19px;
 height: 19px;
