@@ -99,7 +99,7 @@ html {
   appearance: none;
 }
 
-.search-form__label:focus {
+.search-form__textfield:focus {
   outline: none;
 }
 
@@ -202,7 +202,7 @@ html {
   outline: none;
 }
 
-.button:has(:focus-visible) {
+button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 3px;
 }
